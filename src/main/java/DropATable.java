@@ -36,6 +36,7 @@ public class DropATable {
             s.executeUpdate(sql);
         } catch (SQLException e) {
             System.out.println("problem1: " + e.getMessage() + '\n');
+            System.out.println("I am the problem");
         }
     }
 
